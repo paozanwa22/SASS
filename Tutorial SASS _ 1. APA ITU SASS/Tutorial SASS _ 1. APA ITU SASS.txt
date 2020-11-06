@@ -1,0 +1,11 @@
+menuliskan scrip yang di terjemahkan ke dalam CSS
+sass-lang.com //web resmi
+
+
+preprosesor = sebelum di prosses
+nesting = bersarang
+
+$myfont: Helvetica, sans-serif;
+$primary-color: #333;
+
+

@@ -1,0 +1,62 @@
+// CSS Varables
+// :root {
+//     --primary-color: #f4f1de;
+//     --secondary-color: #f2cc8f;
+//     --text-color: #e07a5f;
+// }
+
+// body {
+//     background-color: var(--primary-color);
+// }
+
+// h1 {
+//     color: var(--text-color);
+// }
+
+
+
+
+
+
+// SASS Variables
+// $primary-color: #f4f1de;
+
+// body {
+//     background-color: $primary-color;
+// }
+
+
+//preilaku menggunakan Varable SASS
+//  des = anderskord  // - sama _
+// memiliki scope
+// akses Variable local dengan menambahkan !global pada akhir scope local
+    // body {
+    //     $primary-color: #f4f1de !global;
+    //     background-color: $primary-color;
+    // }
+
+    // h1 {
+    //     color: $primary-color;
+    // }
+
+
+
+// menyimpan beberapa nilai ke dalam sebuah variable
+// map
+    
+    //ini bisa kita persingkat menggunakan map seperti di bawah
+    // $alert-danger: red;
+    // $alert-success: green;
+    // $alert-warning: orange;
+
+// menggunakan map pengganti yang di atas
+// $alert: (
+//     'danger': red,
+//     'success': green,
+//     'warning': orange
+// );
+
+// cara menggunakan map
+// h1 {
+//     color: map-get($alert, 'success');
+// }

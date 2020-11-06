@@ -1,0 +1,13 @@
+@mixin -> untuk membuat miksinnya
+@include -> untuk memanggil mixin
+
+
+//eksperiens
+margin: auto; //berguna di flex //belum saya coba
+
+text-align: center; //ketengah secara horizontal 
+line-height: 60px; //berpatokan/relatif terhadap nilai height container
+
+display: flex;
+justify-content: center;
+align-items: center;

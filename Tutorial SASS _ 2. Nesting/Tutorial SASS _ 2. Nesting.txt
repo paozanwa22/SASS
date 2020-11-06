@@ -1,0 +1,12 @@
+SASS //Syntactically Awesome Style Sheets
+Nesting -> menulis secara bersarang
+
+//merubah posisi penyimpanan SASS
+ctrl+, -> setting -> live sass -> edit in settings.json
+ganti "savePath": null  menjadi "savePath": "css"
+
+&
+& &
+#{&}
+
+

@@ -1,0 +1,67 @@
+// konsep nesting
+
+
+// body {
+//     background-color: azure;
+// }
+
+// .main, footer {
+//     h1, p {
+//         letter-spacing: 1px;
+//     }
+// }
+
+
+// &
+// parent element
+// .main {
+//     .container & { // memberitahu container merupakan bagian dari main
+//         background-color: lightblue;
+//     }
+    
+//     .main-heading {
+//         font-size: 2em;
+//     }
+
+//     &:hover {
+//         background-color: salmon;
+//     }
+
+// }
+
+
+// menjenerit otomatis nama dari parent-nya
+// .main {
+//     & &-heading {
+//         font-size: 2em;
+//     }
+
+//     & &-paragraph {
+//         font-size: 1.4em;
+//     }
+// }
+
+// interpolasi
+// .main {
+//     #{&}-heading {
+//         font-size: 2em;
+//     }
+
+//     #{&}-paragraph {
+//         font-size: 1.4em;
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
