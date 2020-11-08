@@ -1,0 +1,53 @@
+@inport //cara lama
+@use	//cara baru
+
+//memisahkan file mixin
+_mixin.scss
+
+file dengan mana yang di mulai menggunakan anderscore // _mixin.scss
+bertive marsial //bukan file utama dari scss nya &
+tidak akan melalui proses kompilasi
+karna scss tau kalau file ini adalah file yang akan di panggil
+oleh file scss utama
+
+//menggunakan @import
+@import 'namaFile';	//@import 'mixin';
+
+//kekurangan @import
+sass-lang.com/documentation/at-rules/import
+
+
+
+//
+@us
+SASS yang di gunakan di VSCode namanya LIFE SASS
+dan versinya bernama DARK SASS
+@us hanaya bisa di gunakan di versi DARK SASS
+jadi, menggunakan @us di VSCode tidak akan berjalan.
+
+
+untuk bisa berjalan, kita harus menginstal dengan cara lain
+
+cara instal dark sass 
+sass-lang.com
+
+// menjalankan sass
+karna kita menggunakan @use
+maka kita menjalankan sass melalui cmd
+
+
+//ketik di terminal
+sass scss/main.scss css/main.css 
+//cara baca baris di atas "sass tolong rubah file ini menjadi ini"
+
+//manggil mixin menggunakan @use itu berbeda
+kita harus memanggil mixin di file yang membutuhkan
+
+@use 'submodules/mixin' as m;  //menyingkat nama
+@include m.flex-box(row-reverse),
+
+
+
+
+
+
