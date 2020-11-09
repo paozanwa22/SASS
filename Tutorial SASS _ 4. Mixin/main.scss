@@ -1,35 +1,35 @@
 // mixin
 // simple mixin
 @mixin inline-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    li {
-        display: inline-block;
-    }
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+  }
 }
 
 .header ul {
-    @include inline-list();
-    li {
-        background-color: black;
-        padding: 0.7em;
-        a {
-            color: white;
-        }
+  @include inline-list();
+  li {
+    background-color: black;
+    padding: 0.7em;
+    a {
+      color: white;
     }
+  }
 }
 
 .header ul {
-    @include inline-list();
-    li {
-        background-color: salmon;
-        padding: 0.4em;
-        a {
-            color: white;
-            text-decoration: none;
-        }
+  @include inline-list();
+  li {
+    background-color: salmon;
+    padding: 0.4em;
+    a {
+      color: rgb(168, 145, 145);
+      text-decoration: none;
     }
+  }
 }
 
 
@@ -44,17 +44,17 @@
 
 
 .container {
-    @include flex-box(row-reverse, space-evenly); //1
-    width: 600px;
-    height: 400px;
-    background-color: seashell;
-    .box {
-        width: 60px;
-        height: 60px;
-        background-color: yellow;
-        text-align: center;
-        line-height: 60px;
-    }
+  @include flex-box(row-reverse, space-evenly); //1
+  width: 600px;
+  height: 400px;
+  background-color: seashell;
+  .box {
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    text-align: center;
+    line-height: 60px;
+  }
 }
 
 
