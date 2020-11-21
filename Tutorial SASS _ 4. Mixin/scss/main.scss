@@ -34,17 +34,17 @@
 
 
 // arguments pada mixin
-@mixin flex-box( $direction: row, $space: center) { //1
+@mixin flex-box( $direction: row, $space: center) { //1 //menerima item //mendeklarasikan nilai default, jika tidak ada nilai yang di kirim
     display: flex;
-    justify-content: $space;
-    align-items: center;
-    flex-direction: $direction; //1
+    justify-content: $space; //1 //mengatur posisi horizontal
+    align-items: center; //mengatur posisi vertical
+    flex-direction: $direction; //1 //mengurutkan item
 }
 
 
 
 .container {
-  @include flex-box(row-reverse, space-evenly); //1
+  @include flex-box(row-reverse, space-evenly); //1 //mengirimkan nilai
   width: 600px;
   height: 400px;
   background-color: seashell;
@@ -52,8 +52,8 @@
     width: 60px;
     height: 60px;
     background-color: yellow;
-    text-align: center;
-    line-height: 60px;
+    text-align: center; //text di tengah
+    line-height: 60px; //text di tengah //relatife terhadap height
   }
 }
 

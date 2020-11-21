@@ -79,7 +79,7 @@ $dark-text: #ddd;
 // }
 
 // while
-$color: green;
+$color: blue;
 .gradient {
   margin: 0;
   padding: 0;
@@ -88,13 +88,13 @@ $color: green;
   @while $i < 11 {
     li:nth-child(#{$i}) {
       padding: 4px;
-      background-color: lighten($color, $i * 3%);
+      background-color: lighten($color, $i * 5%);
     }
     $i: $i + 1;
   }
 }
 
-// each //variable bisa bentuknya map yang bisa menyimpan banyak nilai
+// each //untuk map
 $social-colors: (
   youtube: #ff0000,
   facebook: #3b5998,

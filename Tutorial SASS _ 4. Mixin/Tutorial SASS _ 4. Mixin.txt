@@ -1,13 +1,13 @@
-@mixin -> untuk membuat miksinnya
-@include -> untuk memanggil mixin
+mixin = Kumpulan style yang dapat kita gunakan berulang-ulang
+hampir mirip dengan function tapi, SASS juga punya function.
 
+
+@mixin -> membuat mixin
+@include -> memanggil mixin
+
+
+//emmet
+ul>li*5>a{Link $}
 
 //eksperiens
 margin: auto; //berguna di flex //belum saya coba
-
-text-align: center; //ketengah secara horizontal 
-line-height: 60px; //berpatokan/relatif terhadap nilai height container
-
-display: flex;
-justify-content: center;
-align-items: center;

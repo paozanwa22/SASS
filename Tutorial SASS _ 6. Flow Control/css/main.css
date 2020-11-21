@@ -42,52 +42,52 @@ body {
 
 .gradient li:nth-child(1) {
   padding: 4px;
-  background-color: #008f00;
+  background-color: #1a1aff;
 }
 
 .gradient li:nth-child(2) {
   padding: 4px;
-  background-color: #009f00;
+  background-color: #3333ff;
 }
 
 .gradient li:nth-child(3) {
   padding: 4px;
-  background-color: #00ae00;
+  background-color: #4d4dff;
 }
 
 .gradient li:nth-child(4) {
   padding: 4px;
-  background-color: #00bd00;
+  background-color: #6666ff;
 }
 
 .gradient li:nth-child(5) {
   padding: 4px;
-  background-color: #00cd00;
+  background-color: #8080ff;
 }
 
 .gradient li:nth-child(6) {
   padding: 4px;
-  background-color: #00dc00;
+  background-color: #9999ff;
 }
 
 .gradient li:nth-child(7) {
   padding: 4px;
-  background-color: #00eb00;
+  background-color: #b3b3ff;
 }
 
 .gradient li:nth-child(8) {
   padding: 4px;
-  background-color: #00fa00;
+  background-color: #ccccff;
 }
 
 .gradient li:nth-child(9) {
   padding: 4px;
-  background-color: #0bff0b;
+  background-color: #e6e6ff;
 }
 
 .gradient li:nth-child(10) {
   padding: 4px;
-  background-color: #1aff1a;
+  background-color: white;
 }
 
 .socials {

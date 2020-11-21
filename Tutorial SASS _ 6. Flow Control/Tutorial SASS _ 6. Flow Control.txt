@@ -1,6 +1,9 @@
+
+SASS (Syntactically Awesome Style Sheets)
+
 Tutorial SASS _ 6. Flow Control
 
-//Flow Control
+//Flow Control / mengatur alur kendali dari script SASS
 @if, @else, @else if
 @for
 @while

@@ -1,0 +1,24 @@
+Built-in Function / Modules
+Fungsi-fungsi bawaan SASS
+
+Built-in  Modules
+Color
+List
+Map
+Math
+Meta
+Selector
+String
+https://sass-lang.com/documentation/modules
+
+Color
+ adjust
+ complement
+ darken
+ lighten
+ saturate
+ desaturate
+ grayscale
+ mix
+ fade-in
+ fade-out

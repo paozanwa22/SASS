@@ -1,3 +1,6 @@
+Modules atau dibaca mojul
+Untuk membuat code SASS kita Modular / mudah untuk di kelola
+
 @inport //cara lama
 @use	//cara baru
 
@@ -11,7 +14,7 @@ karna scss tau kalau file ini adalah file yang akan di panggil
 oleh file scss utama
 
 //menggunakan @import
-@import 'namaFile';	//@import 'mixin';
+@import 'mixin';	//@import 'namaFile';
 
 //kekurangan @import
 sass-lang.com/documentation/at-rules/import
@@ -31,22 +34,29 @@ untuk bisa berjalan, kita harus menginstal dengan cara lain
 cara instal dark sass 
 sass-lang.com
 
-// menjalankan sass
-karna kita menggunakan @use
-maka kita menjalankan sass melalui cmd
+//cek Apakah dark SASS sudah di install atau belum
+ketik pada terminal
+sass
 
-
-//ketik di terminal
-sass scss/main.scss css/main.css 
-//cara baca baris di atas "sass tolong rubah file ini menjadi ini"
 
 //manggil mixin menggunakan @use itu berbeda
 kita harus memanggil mixin di file yang membutuhkan
 
+//peraturan penggunaan
+1. memanggil mixin pada file yang membutuhkan saja
+2. jangan lupa menambahkan nama file mixin pada @include seperti pada contoh berikut ini
+
+//contoh cara menggunakan
 @use 'submodules/mixin' as m;  //menyingkat nama
-@include m.flex-box(row-reverse),
+@include m.flex-box(row-reverse)
 
+// menjalankan sass
+karna kita menggunakan @use
+maka kita menjalankan sass melalui cmd
 
+//ketik di terminal
+sass scss/main.scss css/main.css 
+//cara baca baris di atas "sass tolong rubah file ini menjadi ini"
 
 
 
